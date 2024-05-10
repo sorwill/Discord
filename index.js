@@ -8,7 +8,7 @@ bot.on("ready", () => {
   console.log("Bot is ready!");
 
   // Set the bot's status
-  bot.editStatus("dnd", {
+  bot.editStatus("online", {
     name: "slow replies",
     type: 0 // 0: Playing, 1: Streaming, 2: Listening, 3: Watching
   });
